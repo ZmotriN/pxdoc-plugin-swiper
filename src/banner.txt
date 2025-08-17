@@ -1,0 +1,5 @@
+/*!
+ * @name    swiper
+ * @tags    gallery
+ * @version 11.2.10
+ */
