@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const sass = require('sass');
 const esbuild = require('esbuild');
+const swiper = require('swiper/package.json');
 
 // --> Set path constants
 const worktDir = __dirname;
@@ -25,7 +26,7 @@ const swiperContent = fs.readFileSync(path.join(swiperDir, 'swiper-bundle.min.js
 const pluginContent = fs.readFileSync(path.join(srcDir, 'jscripts/swiper-pxdoc.js'), 'utf8');
 
 // --> Load Banner Content
-const bannerContent = fs.readFileSync(path.join(srcDir, 'banner.txt'), 'utf8');
+const bannerContent = fs.readFileSync(path.join(srcDir, 'banner.txt'), 'utf8').replace(/###VERSION###/i, swiper.version);
 
 // --> Bundle all files
 const bundleContent = templateContent

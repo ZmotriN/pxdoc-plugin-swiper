@@ -1,5 +1,5 @@
 # pxdoc-plugin-swiper
-Plugin Swiper for PXDoc
+Swiper Plugin for PXDoc
 
 ## Build plugin
 
