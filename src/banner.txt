@@ -1,5 +1,5 @@
 /*!
  * @name    swiper
- * @tags    gallery
+ * @tags    gallery,swiper
  * @version ###VERSION###
  */
