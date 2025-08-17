@@ -1,7 +1,9 @@
-const sheet = new CSSStyleSheet();
-sheet.replaceSync(`###CSSCONTENT###`);
-document.adoptedStyleSheets = [...document.adoptedStyleSheets, sheet];
+(function(){
+    const sheetSwiper = new CSSStyleSheet();
+    sheetSwiper.replaceSync(`###CSSCONTENT###`);
+    document.adoptedStyleSheets = [...document.adoptedStyleSheets, sheetSwiper];
 
-###SWIPERCONTENT###
+    ###SWIPERCONTENT###
 
-###PLUGINCONTENT###
+    ###PLUGINCONTENT###
+})();

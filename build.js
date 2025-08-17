@@ -1,8 +1,10 @@
+// --> Include Libraries
 const fs = require('fs');
 const path = require('path');
 const sass = require('sass');
 const esbuild = require('esbuild');
 
+// --> Set path constants
 const worktDir = __dirname;
 const srcDir = path.join(worktDir, 'src/');
 const distDir = path.join(worktDir, 'dist/');
