@@ -1,7 +1,7 @@
 {
     "dependencies": {
         "esbuild": "^0.25.9",
-        "sass": "^1.90.0",
+        "sass": "^1.91.0",
         "swiper": "^11.2.10"
     },
     "scripts": {

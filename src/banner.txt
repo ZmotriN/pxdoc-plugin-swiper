@@ -2,4 +2,6 @@
  * @name    swiper
  * @tags    gallery,swiper
  * @version ###VERSION###
+ * @build   ###DATETIME###
+ * @author  Maxime Larrivée-Roy <zmotrin@gmail.com>
  */
